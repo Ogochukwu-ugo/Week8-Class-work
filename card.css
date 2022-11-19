@@ -28,7 +28,7 @@ main:hover  {
 .profile-pics{
     width: 120px;
     height: 120px;
-    border:1px solid  goldenrod;
+    border:1.5px solid  rgb(98, 77, 24);
     margin: auto;
     margin-top: -65px;
     text-align: center;
@@ -137,7 +137,8 @@ transform: translate(82px, -10px) rotate(-65deg);
 }
 
 .profile-pics ~ .card-content :hover {
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
+    transform: skew(15deg, 15deg);
     cursor: pointer;
 }
 
@@ -153,16 +154,18 @@ transform: translate(82px, -10px) rotate(-65deg);
 
 h4 {
     font-size: 14px;
+    color: rgb(98, 77, 24);
 }
 
 span {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 650;
+    color: rgb(98, 77, 24);
 }
 
 
 #name {
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 #role{
@@ -175,7 +178,7 @@ span {
 }
 
 #email {
-    margin-left:8px;
+    margin-left:10px;
 }
 
 /* .style {
