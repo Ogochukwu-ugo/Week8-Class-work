@@ -12,7 +12,7 @@ main {
     height: 220px;
     transform: translate(-50%, -50%);
     border: 1px solid transparent;
-    background: linear-gradient(rgb(229, 85, 224) 30%, rgb(206, 135, 244) 60%);
+    background: linear-gradient(transparent 30%, rgb(206, 135, 244) 60%);
     border-radius: 8px;
     transition: width 3s;
     transition-delay: .5s;
